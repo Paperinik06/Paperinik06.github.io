@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educazione Fisica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Il Mio Sito Personale</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="pcto.php">PCTO</a></li>
+            <li><a href="progetti.php">Progetti</a></li>
+            <li class="dropdown">
+                <a href="#">Materie</a>
+                <ul class="dropdown-content">
+                    <li><a href="italiano.php">Italiano</a></li>
+                    <li><a href="storia.php">Storia</a></li>
+                    <li><a href="matematica.php">Matematica</a></li>
+                    <li><a href="inglese.php">Inglese</a></li>
+                    <li><a href="religione.php">Religione</a></li>
+                    <li><a href="tpsit.php">TPSIT</a></li>
+                    <li><a href="intelligenzaartificiale.php">Intelligenza Artificiale</a></li>
+                    <li><a href="informatica.php">Informatica</a></li>
+                    <li><a href="sistemiereti.php">Sistemi e Reti</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>Educazione Fisica</h2>
+            <p>Educazione Fisica è certamente la materia scolastica preferita da molti, io stesso la apprezzo molto, poiché trovo fondamentale l'attività fisica per il benessere.</p>
+            <p>Per nostra fortuna abbiamo avuto un professore che oltre a farci divertire molto nelle lezioni si è anche assicurato di educarci al meglio per quanto riguarda la salute fisica e come allenarsi al meglio.</p>
+            <p>Ci ha ricordato di quanto sia importante svolgere attività fisica e svolgerla bene.</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Leonardo Sandroni. Belvedere Ostrense 60030.</p>
+    </footer>
+</body>
+</html>

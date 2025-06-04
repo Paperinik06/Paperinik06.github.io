@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetti - Leonardo Sandroni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Leonardo Sandroni</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="pcto.php">PCTO</a></li>
+            <li>
+                Materie
+                <ul class="dropdown">
+                    <li><a href="italiano.php">Italiano</a></li>
+                    <li><a href="storia.php">Storia</a></li>
+                    <li><a href="educazionefisica.php">Educazione Fisica</a></li>
+                    <li><a href="matematica.php">Matematica</a></li>
+                    <li><a href="inglese.php">Inglese</a></li>
+                    <li><a href="religione.php">Religione</a></li>
+                    <li><a href="tpsit.php">TPSIT</a></li>
+                    <li><a href="intelligenzaartificiale.php">Intelligenza Artificiale</a></li>
+                    <li><a href="informatica.php">Informatica</a></li>
+                    <li><a href="sistemiereti.php">Sistemi e Reti</a></li>
+                    <li><a href="gpoi.php">GPOI</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>Progetto scout</h2>
+
+            <p>
+                Nel nostro ultimo anno scolastico il professore di informatica ci ha incaricati della progettazione e in seguito della creazione di un sito dedicato alla gestione del sistema degli Scout.
+                Abbiamo iniziato con la progettazione del database, partendo da uno schema concettuale stabilendo tutte le entità che avrebbero fatto parte del sito, per poi tradurre il tutto in uno schema logico in modo da decidere quali tabelle includere nel database.
+                Una volta finita la parte del database abbiamo diviso la classe in diversi gruppi che si sarebbero divisi i compiti tra programmazione front-end e back-end.
+                Per rendere l’esperienza più simpatica il nostro professore ha deciso i nomi dei gruppi basandosi sui tarocchi, ad esempio il mio gruppo è nominato “The Hanged man” che è appunto una carta dei tarocchi.
+                Il mio gruppo, nello specifico, si è dovuto occupare dalla realizzazione del web service della tabella “Branca”.
+            </p>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Leonardo Sandroni. Belvedere Ostrense 60030.</p>
+    </footer>
+</body>
+</html>

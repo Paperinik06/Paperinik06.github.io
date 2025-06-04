@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCTO - Leonardo Sandroni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La mia esperienza PCTO</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Materie</a>
+                <ul class="dropdown">
+                    <li><a href="italiano.php">Italiano</a></li>
+                    <li><a href="storia.php">Storia</a></li>
+                    <li><a href="educazionefisica.php">Educazione Fisica</a></li>
+                    <li><a href="matematica.php">Matematica</a></li>
+                    <li><a href="inglese.php">Inglese</a></li>
+                    <li><a href="religione.php">Religione</a></li>
+                    <li><a href="tpsit.php">TPSIT</a></li>
+                    <li><a href="intelligenzaartificiale.php">Intelligenza Artificiale</a></li>
+                    <li><a href="informatica.php">Informatica</a></li>
+                    <li><a href="sistemiereti.php">Sistemi e Reti</a></li>
+                    <li><a href="gpoi.php">GPOI</a></li>
+                </ul>
+            </li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="progetti.php">Progetti</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>La mia esperienza PCTO</h2>
+            <p>Per la mia esperienza PCTO sono stato assegnato al comune di Belvedere Ostrense, il paesino in cui abito. L’esperienza si è divisa in due periodi: il primo nel mese di Maggio e il secondo a Settembre. Al contrario di molti miei compagni non sono stato spedito in un’azienda, bensì in un comune, dove ho dunque trovato mansioni molto diverse rispetto agli altri studenti in PCTO. Il mio compito principale è stato quello di scendere nell’archivio del comune a riordinare documenti nelle varie cartelle divise per data: in base al numero del protocollo scritto sul documento dovevo trovare la cartella adatta in cui inserirlo.</p>
+
+            <h3>Pro dell’esperienza</h3>
+            <p>Ho avuto il grande vantaggio di avere il posto di lavoro molto vicino casa, mi bastavano infatti pochi secondi di camminata per andare e tornare. Inoltre mi avevano stabilito come orario d’entrata le 9:00 anzi che le 8:00.</p>
+
+            <h3>Contro dell’esperienza</h3>
+            <p>Oltre all’attività citata precedentemente non ho avuto molti compiti da svolgere, risultando in molte giornate perse a far niente in ufficio affianco ai miei colleghi. Per quanto abbiano provato inizialmente a coinvolgermi nelle attività del comune, una volta terminati questi compiti non hanno più avuto molto da farmi fare. Inoltre, un comune (per giunta di un paesino) è un luogo di lavoro completamente diverso da un’azienda, per tanto ciò che ho dovuto fare durante la mia esperienza PCTO è totalmente scollegato dalle opportunità di lavoro che potrò ottenere con il mio diploma.</p>
+
+            <h3>Considerazioni finali</h3>
+            <p>In conclusione ho trovato la mia esperienza poco costruttiva, perché il luogo di lavoro in sé era secondo me non coerente rispetto al mio percorso di studi, in aggiunta a questo la maggior parte del tempo è andato sprecato poiché non avevo nulla da fare. Io penso che l’alternanza scuola-lavoro debba essere un’esperienza puramente opzionale, anche perché non puoi decidere dove andare a lavorare, inoltre dal momento in cui ti ritrovi senza mansioni da svolgere a lavoro risulta una perdita di tempo, se invece ti fanno effettivamente mettere sotto con incarichi, facendoteli svolgere al posto loro (come è successo in alcuni casi a ragazzi di mia conoscenza), risulterebbe secondo me in uno “sfruttamento”, in quanto lavoro retribuito. In sostanza ho trovato la mia esperienza PCTO assolutamente poco costruttiva, poco utile, noiosa: essenzialmente una perdita di tempo.</p>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Leonardo Sandroni. Belvedere Ostrense 60030.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intelligenza Artificiale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Intelligenza Artificiale</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Materie</a>
+                <ul class="dropdown">
+                    <li><a href="italiano.php">Italiano</a></li>
+                    <li><a href="storia.php">Storia</a></li>
+                    <li><a href="educazionefisica.php">Educazione Fisica</a></li>
+                    <li><a href="matematica.php">Matematica</a></li>
+                    <li><a href="inglese.php">Inglese</a></li>
+                    <li><a href="religione.php">Religione</a></li>
+                    <li><a href="tpsit.php">TPSIT</a></li>
+                    <li><a href="informatica.php">Informatica</a></li>
+                    <li><a href="sistemiereti.php">Sistemi e Reti</a></li>
+                    <li><a href="gpoi.php">GPOI</a></li>
+                </ul>
+            </li>
+            <li><a href="progetti.php">Progetti</a></li>
+            <li><a href="pcto.php">PCTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+        <h2>Intelligenza Artificiale</h2>
+            <p>
+                Intelligenza Artificiale è una materia introdotta nel percorso di studi del triennio del nostro istituto a partire dall'anno scorso.
+                Nelle lezioni di IA abbiamo scoperto la natura dell'intelligenza artificiale stessa, analizzando vari tipi di reti neurali e i loro funzionamenti.
+                A mio parere è una delle materie più interessanti, se non la più interessante, dell'indirizzo, anche perché in futuro la realtà dell'intelligenza artificiale sarà sempre più concreta.
+            </p>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Leonardo Sandroni. Belvedere Ostrense 60030.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background: #666;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative; /* Needed for positioning the dropdown */
+}
+
+nav ul li ul {
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    top: 100%; /* Position below the parent list item */
+    left: 0;
+    background: #555; /* Slightly darker background for dropdown */
+    padding: 0;
+    list-style: none;
+    text-align: left; /* Align dropdown text to the left */
+    min-width: 150px; /* Minimum width for the dropdown */
+    z-index: 1000; /* Ensure dropdown appears above other content */
+}
+
+nav ul li:hover > ul {
+    display: block; /* Show the dropdown on hover */
+}
+
+nav ul li ul li {
+    display: block; /* Each dropdown item on its own line */
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
